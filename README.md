@@ -12,7 +12,6 @@ Setup minimalista, enfocado en velocidad y teclado.
 - **polybar** → barra
 - **picom** → compositor
 - **kitty** → terminal
-- **neovim** → editor
 - **GTK / Qt** → theming
 - **scripts propios** para estados, red, VPN, etc.
 
@@ -26,7 +25,6 @@ sxhkd/        keybindings
 polybar/      barra + scripts + fuentes
 picom/        compositor
 kitty/        terminal
-nvim/         config de Neovim
 gtk-3.0/      tema GTK
 qt5ct/        tema Qt5
 qt6ct/        tema Qt6
