@@ -1,24 +1,3 @@
-# BSPWM
-
-Este directorio contiene mi configuración personal del gestor de ventanas **bspwm** y de los componentes que lo acompañan en el día a día. El objetivo es mantener un entorno minimalista, rápido y orientado al uso intensivo del teclado, sin renunciar a cierta estética y a una organización clara de los ficheros.
-
----
-
-## Qué es bspwm
-
-**bspwm** (Binary Space Partitioning Window Manager) es un gestor de ventanas en mosaico para X11. En lugar de apilar ventanas de forma libre, organiza el espacio de pantalla dividiéndolo en regiones (tiles) según reglas predecibles. El control se apoya casi por completo en atajos de teclado, lo que lo hace especialmente cómodo para trabajar con varias aplicaciones en paralelo y aprovechar bien el espacio en pantalla.
-
-En este entorno, bspwm no funciona de forma aislada, sino que se integra con otros componentes ligeros que completan la experiencia gráfica:
-
-- `sxhkd` para los atajos de teclado.
-- `polybar` para la barra de estado.
-- `picom` como compositor (sombras, transparencias, animaciones sutiles).
-- `kitty` como emulador de terminal.
-- Ajustes de GTK y Qt para unificar el aspecto de las aplicaciones.
-
-El comportamiento general del sistema se define principalmente en `bspwmrc` y en los distintos archivos de configuración repartidos por este directorio.
-
----
 
 ## Contenido principal
 
