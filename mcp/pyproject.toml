@@ -1,0 +1,15 @@
+[project]
+name = "bspwm-mcp"
+version = "0.1.0"
+description = "Servidor MCP para editar configuraciones de BSPWM en este repositorio"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]",
+    "openai>=1.60.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+# Permite ejecutar con: bspwm-mcp
+# (opcional; también puedes usar mcp dev server.py directamente)
+bspwm-mcp = "server:main"
