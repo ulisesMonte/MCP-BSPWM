@@ -21,9 +21,9 @@ Cada subdirectorio contiene un conjunto de ficheros de texto simples que se pued
 
 ## Relación con MCP
 
-En la carpeta hermana `bspwm-mcp/` se define un **servidor MCP** (Model Context Protocol) que utiliza exactamente esta estructura de directorios como fuente de verdad para la configuración del entorno.
+En la carpeta hermana `bspwm-mcp/` se define un **servidor MCP** (Model Context Protocol) que utiliza exactamente esta estructura de directorios como fuente predeterminada para la configuración del entorno.
 
-MCP es un protocolo que permite a clientes compatibles (por ejemplo, asistentes o herramientas de inspección) interactuar con recursos externos a través de herramientas bien definidas. En este caso concreto, el servidor MCP expone funciones para:
+Este mcp es un protocolo que permite a clientes compatible interactuar con herramientas como:
 
 - Listar los archivos de configuración relevantes de este directorio.
 - Leer el contenido de ficheros como `bspwmrc`, `polybar/config`, `picom/picom.conf`, etc.
