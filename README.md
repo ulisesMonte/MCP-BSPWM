@@ -1,5 +1,5 @@
 
-## Contenido principal
+## Bspwm
 
 La estructura general es la siguiente:
 
